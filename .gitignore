@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+out/
+release/
+
+# 运行时资产（内置 JDK / JDT LS / java-debug，体积大，不入库）
+runtime/
+
+# 日志与缓存
+*.log
+npm-debug.log*
+yarn-error.log*
+.tmp/
+.cache/
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+
+# 系统
+.DS_Store
+Thumbs.db
